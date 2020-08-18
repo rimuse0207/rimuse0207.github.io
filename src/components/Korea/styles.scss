@@ -1,0 +1,849 @@
+$break: 720px;
+
+div:focus {
+    outline: none !important;
+}
+
+.Home {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .big__image {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    .top {
+        display: flex;
+        width: 76%;
+        .black__box {
+            
+            width: 85px;
+            height: 130px;
+            background-color: black;
+            display: flex;
+            align-items: flex-end;
+            padding: 0;
+            .span {
+                font-size: 72px;
+                color: white;
+                position: relative;
+                top: 6px;
+                right: 9px;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+    }
+
+    .my__name {
+        width: 76%;
+        display: flex;
+        align-items: center;
+
+        @media screen and (max-width:$break) {
+            padding-left: 20px;
+        }
+
+        .name {
+            margin-left: 10px;
+            font-family: 'DM Mono', monospace;
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 2px;
+            font-size: 14px;
+            
+        }
+    }
+
+    .introduce__me {
+        width: 76%;
+        font-family: 'DM Mono', monospace;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-size: 60px;
+        p {
+            line-height: 80px;
+
+            @media screen and (max-width: $break) {
+                font-size: 18px;
+                line-height: 30px;
+              }
+
+
+        }
+    }
+
+    .under__introduce__me {
+        height: 300px;
+        @media screen and (max-width: $break) {
+            height: 70px;
+          }
+    }
+
+    .middle__big__text {
+        width: 76%;
+        font-size: 38px;
+        font-family: 'DM Mono', monospace;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Playfair Display', serif;
+        @media screen and (max-width:$break) {
+            padding-left: 20px;
+        }
+    }
+
+    .plane__text__container {
+        padding-left: 20%;
+        @media screen and (max-width: $break) {
+            padding-left: 20px;
+          }
+        .plane__text {
+            width: 55%;
+            font-size: 22px;
+            line-height: 34px;
+            font-weight: 200;
+            font-family: 'Open Sans', sans-serif;
+            display: inline-block;
+            overflow-wrap: break-word;
+            display: block;
+            hyphens: none;
+            -webkit-hyphens: none;
+            -moz-hyphens: none;
+            @media screen and (max-width: $break) {
+                width: 95%;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .under__skills {
+        height: 100px;
+        @media screen and (max-width: $break) {
+            height: 0px;
+        }
+    }
+
+    .recent_projects__container {
+        
+        width: 77%;
+
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width:$break) {
+            flex-direction: column;
+            width: 100%;
+        }
+        .left {
+            width: 100%;
+            max-width: 600px;
+            .top {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .image__card__container {
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                
+                .image__container {
+                    cursor: pointer;
+                    position: relative;
+                    #image1 {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .text__container2 {
+                        position: absolute;
+                        color: white;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        span {
+                            font-size: 28px;
+                            font-weight: 600;
+                            font-family: 'Roboto', sans-serif;
+                            letter-spacing: 9px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+
+                .text__container {
+                    width: 99.6%;
+                    border: 1px solid gainsboro;
+                    height: 160px;
+                    margin-top: -5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .inner__container {
+                        width: 87%;
+                        height: 100%;
+                        .title {
+                            font-weight: 700;
+                            margin-top: 33px;
+                        }
+                        .text {
+                            margin-top: 17px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+            .second__card {
+                margin-top: 70px;
+                cursor: pointer;
+
+                @media screen and ( max-width:$break) {
+                    margin-bottom: 70px;
+                }
+
+                .image__container {
+                    position: relative;
+                    img {
+                        width: 100%;
+                    }
+                    .text__container__in__image__container {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top:0;
+                        left: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        span {
+                            font-size: 28px;
+                            font-weight: 600;
+                            font-family: 'Roboto', sans-serif;
+                            letter-spacing: 9px;
+                            line-height: 40px;
+                            color: white;
+                        }
+                    }
+                }
+
+                .text__container {
+                    width: 99.6%;
+                    border: 1px solid gainsboro;
+                    height: 160px;
+                    @media screen and (max-width:$break) {
+                        height: 120px;
+                    }
+                    margin-top: -5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .inner__container {
+                        width: 87%;
+                        height: 100%;
+                        .title {
+                            font-weight: 700;
+                            margin-top: 33px;
+                        }
+                        .text {
+                            margin-top: 17px;
+                            line-height: 22px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .right {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            .image__container {
+                cursor: pointer;
+                position: relative;
+                img {
+                    width: 100%;
+                }
+
+                .text__in__container {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    span {
+                        font-size: 28px;
+                        font-weight: 600;
+                        font-family: 'Roboto', sans-serif;
+                        letter-spacing: 9px;
+                        line-height: 40px;
+                        color: white;
+                    }
+                }
+            }
+
+            .text__container {
+                cursor: pointer;
+                width: 99.6%;
+                    border: 1px solid gainsboro;
+                    height: 160px;
+                    margin-top: -5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .inner__container {
+                        width: 87%;
+                        height: 100%;
+                        .title {
+                            font-weight: 700;
+                            margin-top: 33px;
+                        }
+                        .text {
+                            margin-top: 17px;
+                            line-height: 22px;
+                        }
+                    }
+            }
+
+            .second__card {
+                margin-top: 200px;
+                @media screen and (max-width:$break) {
+                    margin-top: 70px;
+                }
+
+                .image__container {
+                    position: relative;
+                    .text__container__in__image__container {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top:0;
+                        left: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        span {
+                            font-size: 28px;
+                            font-weight: 600;
+                            font-family: 'Roboto', sans-serif;
+                            letter-spacing: 9px;
+                            line-height: 40px;
+                            color: white;
+                        }
+                    }
+                }
+
+                .text__container {
+                    @media screen and (max-width:$break) {
+                        height: 215px;
+                    }
+                    .inner__container {
+                        width: 87%;
+                        height: 100%;
+                        .title {
+                            font-weight: 700;
+                            margin-top: 33px;
+                        }
+                        .text {
+                            margin-top: 17px;
+                            line-height: 22px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .slider__container {
+        width: 76%;
+        .slick-prev:before, .slick-next:before {
+            color:black !important;
+        }
+        div {
+            &:hover {
+                outline: none;
+            }
+        }
+    }
+
+    .school {
+        width: 76%;
+        max-width: 1400px;
+        // @media screen and (max-width:&break) {
+        //     width: 100%;
+        // }
+        @media screen and (max-width:$break) {
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width:$break) {
+                flex-direction: column-reverse;
+            }
+            .left {
+                width: 35%;
+                height: 300px;
+                border-top: 1px solid gainsboro;
+                border-left: 1px solid gainsboro;
+                border-bottom: 1px solid gainsboro;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media screen and (max-width:$break) {
+                    width: 100%;
+                    height: 150px;
+                    border-top: 0;
+                }
+                .text__container {
+                    width: 80%;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-size: 15px;
+                            font-weight: 500;
+                            font-family: 'Roboto', sans-serif;
+                            
+                            line-height: 20px;
+                    }
+                }
+                
+            }
+            .right {
+                width: 55%;
+                position: relative;
+                @media screen and (max-width:$break) {
+                    width: 100%;
+                }
+                img {
+                    width: 100%;
+                    
+                }
+
+                .text__container {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    p {
+                        position: relative;
+                        top: 35px;
+                        font-size: 28px;
+                        font-weight: 600;
+                        font-family: 'Roboto', sans-serif;
+                        letter-spacing: 9px;
+                        line-height: 40px;
+                        color: white;
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+    .introduce__medium {
+        width: 78%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media screen and (max-width:$break) {
+            width: 100%;
+        }
+        .title {
+            margin-top: 150px;
+            font-size: 72px;
+            font-family: 'Playfair Display', serif;
+            @media screen and (max-width:$break) {
+                font-size: 44px;
+            }
+        }
+        .medium__popular__post__container {
+            width: 680px;
+            @media screen and (max-width:$break) {
+                width: 100%;
+            }
+            border-radius: 5px;
+            border: 1px solid gainsboro;
+            margin-top: 70px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+
+            .me__container {
+                display: flex;
+                margin-top: 20px;
+                margin-left: 25px;
+                .profile__image__container {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        margin-right: 15px;
+                    }
+                }
+
+                .my__info__container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .name__container {
+                        p {
+                            font-size: small;
+                            color: gray;
+                            font-weight: 100;
+                        }
+                    }
+                    .date__container {
+                        margin-top: 10px;
+                        display: flex;
+                        color: gray;
+                        .date {
+                            font-size: small;
+                            
+                        }
+                        span {
+                            margin-right: 5px;
+                            margin-left: 5px;
+                        }
+                        .read {
+                            font-size: small;
+                        }
+                    }
+                }
+
+            }
+
+            .post__image__container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 25px;
+                @media screen and (max-width:$break) {
+                    height: 150px;
+                }
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+            .title {
+                margin-top: 30px;
+                margin-left: 40px;
+                margin-right: 40px;
+                margin-bottom: 30px;
+                p {
+                    font-size: 27px;
+                }
+            }
+            .contents {
+                margin-left: 40px;
+                margin-right: 40px;
+                margin-bottom: 30px;
+                p {
+                    font-size: 15px;
+                    color: gray;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    .introduce__youtube {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 170px;
+        .title {
+            font-size: 72px;
+            @media screen and (max-width:$break) {
+                font-size: 44px;
+            }
+            font-family: 'Playfair Display', serif;
+        }
+        .youtube__popular__post__container {
+            border-radius: 5px;
+            border: 1px solid gainsboro;
+            margin-top: 70px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            width: 680px;
+            @media screen and (max-width:$break) {
+                width: 100%;
+            }
+        }
+
+        .me__container {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 25px;
+            .profile__image__container {
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                }
+            }
+
+            .my__info__container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .name__container {
+                    p {
+                        font-size: small;
+                        color: gray;
+                        font-weight: 100;
+                    }
+                }
+                .date__container {
+                    margin-top: 10px;
+                    display: flex;
+                    color: gray;
+                    .date {
+                        font-size: small;
+                        
+                    }
+                    span {
+                        margin-right: 5px;
+                        margin-left: 5px;
+                    }
+                    .read {
+                        font-size: small;
+                    }
+                }
+            }
+
+        }
+
+        .post__image__container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            @media screen and (max-width:$break) {
+                height: 217.91px;
+            }
+            img {
+                width: 90%;
+                border-radius: 2px;
+                object-fit: contain;
+            }
+        }
+
+        .title {
+            margin-top: 30px;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 30px;
+            p {
+                font-size: 27px;
+            }
+        }
+
+        .contents {
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 30px;
+            p {
+                font-size: 15px;
+                color: gray;
+                line-height: 20px;
+            }
+        }
+    }
+    .above__instagram {
+        height: 900px;
+        @media screen and (max-width:$break) {
+            height: 200px;
+        }
+    }
+    .instagram {
+        width: 100%;
+        height: 120vh;
+        background-color: black;
+        position: relative;
+        .image1 {
+            position: absolute;
+            top: 0;
+            left: 12%;
+            width: 600px;
+            @media screen and (max-width:$break) {
+                width: 300px;
+            }
+        }
+
+        .image2 {
+            position: absolute;
+            bottom: 0;
+            right: 12%;
+            width: 600px;
+            @media screen and (max-width:$break) {
+                width: 300px;
+            }
+        }
+
+        .text__container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            
+            p {
+                font-size: 150px;
+                @media screen and (max-width:$break){
+                    font-size: 50px;
+                }
+            }
+            .row {
+                display: flex;
+                position: relative;
+                .line {
+                    width: 620px;
+                    height: 10px;
+                    background-color: white;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    @media screen and (max-width:$break) {
+                        width: 208px;
+                        height: 4px;
+                    }
+                }
+                .area {
+                    width: 630px;
+                    height: 160px;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    cursor: pointer;
+                }
+                p {
+                    
+                    &:nth-child(1) {
+                        margin-right: 60px;
+                        @media screen and (max-width:$break) {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+
+            
+        }
+
+        .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            display: none;
+        }
+        
+    }
+
+    .copyright {
+        width: 78%;
+        border-top: 1px solid gainsboro;
+        height: 250px;
+        display: flex;
+        @media screen and (max-width:$break) {
+            flex-direction: column;
+        }
+        .text__container {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            p {
+                color: gray;
+                font-family: 'DM Mono', monospace;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+        .sns__container {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            img {
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+                &:nth-child(1) {
+                    margin-right: 20px;
+                }
+                &:nth-child(2) {
+                    margin-right: 20px;
+                }
+                &:nth-child(3) {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+    .button__to__send__email__to__me__container {
+        position: fixed;
+        right: 0;
+        top: 48%;
+        background-color: black;
+        height: 120px;
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        .email__icon {
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: $break) {
+        
+            top: 0;
+            
+        }
+
+
+    }
+
+
+}
+
+.short_line {
+    width: 50px;
+    height: 1px;
+    background-color: gainsboro;
+}
