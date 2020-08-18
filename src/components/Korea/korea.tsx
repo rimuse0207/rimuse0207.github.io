@@ -49,7 +49,7 @@ function Korea() {
       <div className="under__introduce__me" />
       {/* <Fade bottom cascade> */}
       <div className="big__image">
-        <img src={require("../../assets/jpana.jpg")} alt="" />
+        <img src={require("../../assets/korea.jpeg")} alt="" />
       </div>
       {/* </Fade> */}
       <div
@@ -223,13 +223,13 @@ function Korea() {
             <div className="image__container">
               <img id={"image1"} src={require("../../assets/flower.jpg")} />
               <div className="text__container2">
-                <span>이꽃은</span>
+                <span>이 꽃</span>
                 <span>뭐야?</span>
               </div>
             </div>
             <div className="text__container">
               <div className="inner__container">
-                <p className="title">この花は何？</p>
+                <p className="title">이 꽃 뭐야？</p>
                 <p className="text">
                   React.js, Redux, Node.js, Hooks, MongoDB, Redux-Thunk, Express
                   를 사용해서 만든 홈페이지 입니다. 꽃의 정보나 꽃길을
