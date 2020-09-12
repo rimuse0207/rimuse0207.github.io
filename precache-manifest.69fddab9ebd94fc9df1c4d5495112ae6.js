@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d60832cf7082ed7c749c47a68436d50d",
+    "revision": "60c97f7d8b6e1b58cb953f292505ae11",
     "url": "/potpol/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/potpol/static/css/2.d25624ba.chunk.css"
   },
   {
-    "revision": "1e495e8f92d230c018eb",
+    "revision": "5c63ba46a56fa18bd7c4",
     "url": "/potpol/static/css/main.2f5b09b8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/potpol/static/js/2.d7d84ec4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e495e8f92d230c018eb",
-    "url": "/potpol/static/js/main.e0f02600.chunk.js"
+    "revision": "5c63ba46a56fa18bd7c4",
+    "url": "/potpol/static/js/main.b49ff457.chunk.js"
   },
   {
     "revision": "c123880d82b6e966b966",

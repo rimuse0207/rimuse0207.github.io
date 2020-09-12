@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/potpol/static/css/main.2f5b09b8.chunk.css",
-    "main.js": "/potpol/static/js/main.e0f02600.chunk.js",
-    "main.js.map": "/potpol/static/js/main.e0f02600.chunk.js.map",
+    "main.js": "/potpol/static/js/main.b49ff457.chunk.js",
+    "main.js.map": "/potpol/static/js/main.b49ff457.chunk.js.map",
     "runtime-main.js": "/potpol/static/js/runtime-main.d729c273.js",
     "runtime-main.js.map": "/potpol/static/js/runtime-main.d729c273.js.map",
     "static/css/2.d25624ba.chunk.css": "/potpol/static/css/2.d25624ba.chunk.css",
     "static/js/2.d7d84ec4.chunk.js": "/potpol/static/js/2.d7d84ec4.chunk.js",
     "static/js/2.d7d84ec4.chunk.js.map": "/potpol/static/js/2.d7d84ec4.chunk.js.map",
     "index.html": "/potpol/index.html",
-    "precache-manifest.bc5eb81e34253625b65ad62fbd18f615.js": "/potpol/precache-manifest.bc5eb81e34253625b65ad62fbd18f615.js",
+    "precache-manifest.69fddab9ebd94fc9df1c4d5495112ae6.js": "/potpol/precache-manifest.69fddab9ebd94fc9df1c4d5495112ae6.js",
     "service-worker.js": "/potpol/service-worker.js",
     "static/css/2.d25624ba.chunk.css.map": "/potpol/static/css/2.d25624ba.chunk.css.map",
     "static/css/main.2f5b09b8.chunk.css.map": "/potpol/static/css/main.2f5b09b8.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.d25624ba.chunk.css",
     "static/js/2.d7d84ec4.chunk.js",
     "static/css/main.2f5b09b8.chunk.css",
-    "static/js/main.e0f02600.chunk.js"
+    "static/js/main.b49ff457.chunk.js"
   ]
 }
