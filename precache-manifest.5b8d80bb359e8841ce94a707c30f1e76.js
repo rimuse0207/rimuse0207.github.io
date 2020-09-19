@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60c97f7d8b6e1b58cb953f292505ae11",
+    "revision": "6a8022348f4707ae1e0467da4ac98c63",
     "url": "/potpol/index.html"
   },
   {
-    "revision": "c6d1db13883a71f3d762",
+    "revision": "479c379b3d53eb21332b",
     "url": "/potpol/static/css/2.d25624ba.chunk.css"
   },
   {
-    "revision": "5c63ba46a56fa18bd7c4",
+    "revision": "e63f859d0db6181dd043",
     "url": "/potpol/static/css/main.2f5b09b8.chunk.css"
   },
   {
-    "revision": "c6d1db13883a71f3d762",
-    "url": "/potpol/static/js/2.d7d84ec4.chunk.js"
+    "revision": "479c379b3d53eb21332b",
+    "url": "/potpol/static/js/2.9ffc03b0.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/potpol/static/js/2.d7d84ec4.chunk.js.LICENSE.txt"
+    "url": "/potpol/static/js/2.9ffc03b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c63ba46a56fa18bd7c4",
-    "url": "/potpol/static/js/main.b49ff457.chunk.js"
+    "revision": "e63f859d0db6181dd043",
+    "url": "/potpol/static/js/main.ce700cda.chunk.js"
   },
   {
     "revision": "c123880d82b6e966b966",
     "url": "/potpol/static/js/runtime-main.d729c273.js"
+  },
+  {
+    "revision": "ca16d23435c8f1d0c1f6a8232be2b88c",
+    "url": "/potpol/static/media/Red-Bell-Pepper_grande.ca16d234.jpeg"
   },
   {
     "revision": "eddd99bf37b6d65b1b3103b4d930e1dc",
