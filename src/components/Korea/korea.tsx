@@ -253,35 +253,43 @@ function Korea() {
         </div>
         <div style={{ width: "80px" }} />
         <div className="right">
-          <div className="image__container" onClick={goToAppStore}>
-            <img src={require("../../assets/net.jpg")} alt="" />
+          <div className="image__container" onClick={FoodlyStore}>
+            <img
+              src={require("../../assets/Red-Bell-Pepper_grande.jpeg")}
+              alt=""
+            />
+
             <div className="text__in__container">
-              <span>NetFlix</span>
-              <span>Clone</span>
+              <span>Food</span>
+              <span>Market</span>
             </div>
           </div>
-          <div className="text__container" onClick={goToAppStore}>
+          <div className="text__container" onClick={FoodlyStore}>
             <div className="inner__container">
-              <p className="title">NetFlix Clone</p>
+              <p className="title">Food Market</p>
+
               <p className="text">
-                React.js 를 사용해서 만든 홈페이지 입니다. 영화의
-                정보나미리보기를 볼수 있게 만든 프로젝트입니다.
+                React.js TypeScript 순수CSS를 사용하여 만든 홈페이지 입니다.
+                또한 반응형으로 만든 싸이트입니다.
               </p>
             </div>
           </div>
           <div className="second__card">
-            <div className="image__container">
-              <img src={require("../../assets/image4.jpg")} alt="" />
+            <div className="image__container" onClick={goToAppStore}>
+              <img src={require("../../assets/net.jpg")} alt="" />
               <div className="text__container__in__image__container">
-                <span></span>
-                <span></span>
+                <span>NetFlix</span>
+                <span>Clone</span>
                 <span></span>
               </div>
             </div>
-            <div className="text__container">
+            <div className="text__container" onClick={goToAppStore}>
               <div className="inner__container">
-                <p className="title"></p>
-                <p className="text">아직 개발중에 있습니다.</p>
+                <p className="title">NetFlix Clone</p>
+                <p className="text">
+                  React.js 를 사용해서 만든 홈페이지 입니다. 영화의
+                  정보나미리보기를 볼수 있게 만든 프로젝트입니다.
+                </p>
               </div>
             </div>
           </div>
@@ -398,6 +406,9 @@ function Korea() {
 
   function goToBibleBot() {
     window.open("http://18.221.28.100/");
+  }
+  function FoodlyStore() {
+    window.open("https://rimuse0207.github.io/Foodly-Store/");
   }
 }
 
