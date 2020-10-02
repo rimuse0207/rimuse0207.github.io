@@ -266,18 +266,23 @@ function Home() {
             </div>
           </div>
           <div className="second__card">
-            <div className="image__container">
-              <img src={require("../../assets/image4.jpg")} alt="" />
+            <div className="image__container" onClick={FoodlyStore}>
+              <img
+                src={require("../../assets/Red-Bell-Pepper_grande.jpeg")}
+                alt=""
+              />
               <div className="text__container__in__image__container">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span>Food</span>
+                <span>Market</span>
               </div>
             </div>
-            <div className="text__container">
+            <div className="text__container" onClick={FoodlyStore}>
               <div className="inner__container">
-                <p className="title"></p>
-                <p className="text">まだ考えています。</p>
+                <p className="title">Food Market</p>
+                <p className="text">
+                  React.js TypeScript Redux
+                  Node.jsを使用しながら作ったホームページです。また反応系で作ったのでMobileでも使えます。
+                </p>
               </div>
             </div>
           </div>
@@ -394,6 +399,9 @@ function Home() {
 
   function goToBibleBot() {
     window.open("https://github.com/rimuse0207/reflowerFrontEnd");
+  }
+  function FoodlyStore() {
+    window.open("https://rimuse0207.github.io/Foodly-Store/");
   }
 }
 
