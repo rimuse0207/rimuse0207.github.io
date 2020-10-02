@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/potpol/static/css/main.2f5b09b8.chunk.css",
-    "main.js": "/potpol/static/js/main.ce700cda.chunk.js",
-    "main.js.map": "/potpol/static/js/main.ce700cda.chunk.js.map",
+    "main.js": "/potpol/static/js/main.8be29e54.chunk.js",
+    "main.js.map": "/potpol/static/js/main.8be29e54.chunk.js.map",
     "runtime-main.js": "/potpol/static/js/runtime-main.d729c273.js",
     "runtime-main.js.map": "/potpol/static/js/runtime-main.d729c273.js.map",
     "static/css/2.d25624ba.chunk.css": "/potpol/static/css/2.d25624ba.chunk.css",
-    "static/js/2.9ffc03b0.chunk.js": "/potpol/static/js/2.9ffc03b0.chunk.js",
-    "static/js/2.9ffc03b0.chunk.js.map": "/potpol/static/js/2.9ffc03b0.chunk.js.map",
+    "static/js/2.d7d84ec4.chunk.js": "/potpol/static/js/2.d7d84ec4.chunk.js",
+    "static/js/2.d7d84ec4.chunk.js.map": "/potpol/static/js/2.d7d84ec4.chunk.js.map",
     "index.html": "/potpol/index.html",
-    "precache-manifest.5b8d80bb359e8841ce94a707c30f1e76.js": "/potpol/precache-manifest.5b8d80bb359e8841ce94a707c30f1e76.js",
+    "precache-manifest.7c98f0c613b72ac68fc14df254ee42b0.js": "/potpol/precache-manifest.7c98f0c613b72ac68fc14df254ee42b0.js",
     "service-worker.js": "/potpol/service-worker.js",
     "static/css/2.d25624ba.chunk.css.map": "/potpol/static/css/2.d25624ba.chunk.css.map",
     "static/css/main.2f5b09b8.chunk.css.map": "/potpol/static/css/main.2f5b09b8.chunk.css.map",
-    "static/js/2.9ffc03b0.chunk.js.LICENSE.txt": "/potpol/static/js/2.9ffc03b0.chunk.js.LICENSE.txt",
+    "static/js/2.d7d84ec4.chunk.js.LICENSE.txt": "/potpol/static/js/2.d7d84ec4.chunk.js.LICENSE.txt",
     "static/media/Red-Bell-Pepper_grande.jpeg": "/potpol/static/media/Red-Bell-Pepper_grande.ca16d234.jpeg",
     "static/media/flower.jpg": "/potpol/static/media/flower.eddd99bf.jpg",
     "static/media/github.png": "/potpol/static/media/github.bedc05ab.png",
-    "static/media/image4.jpg": "/potpol/static/media/image4.7a5c1073.jpg",
     "static/media/jpana.jpg": "/potpol/static/media/jpana.19896825.jpg",
     "static/media/kbu.jpg": "/potpol/static/media/kbu.36f80f5f.jpg",
     "static/media/korea.jpeg": "/potpol/static/media/korea.814f787c.jpeg",
@@ -27,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.d729c273.js",
     "static/css/2.d25624ba.chunk.css",
-    "static/js/2.9ffc03b0.chunk.js",
+    "static/js/2.d7d84ec4.chunk.js",
     "static/css/main.2f5b09b8.chunk.css",
-    "static/js/main.ce700cda.chunk.js"
+    "static/js/main.8be29e54.chunk.js"
   ]
 }
